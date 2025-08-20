@@ -1,0 +1,36 @@
+[33mcommit b6f1122fd8569a998eb5f0b47824960150a8ddf4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mohammed Rishan <rishanrish8181@gmail.com>
+Date:   Tue Aug 12 21:46:41 2025 +0530
+
+    removed formsmsg in contact section
+
+[33mcommit 34c0ab84b64e414852749c86f08af01f74b02056[m
+Author: Mohammed Rishan <rishanrish8181@gmail.com>
+Date:   Tue Aug 12 21:40:56 2025 +0530
+
+    added social media icons and contact forms
+
+[33mcommit c887ac8a29f109ce7210295b6bdc40397a50bac4[m
+Merge: 4aa65a2 5093c78
+Author: Mohammed Rishan <rishanrish8181@gmail.com>
+Date:   Mon Aug 11 22:41:03 2025 +0530
+
+    Merge branch 'main' of https://github.com/Rishanmohammed/rishanportfolio-website
+
+[33mcommit 4aa65a24781d9b6fc6566c580616d0bba58ac5e0[m
+Author: Mohammed Rishan <rishanrish8181@gmail.com>
+Date:   Mon Aug 11 22:39:39 2025 +0530
+
+    about me changed
+
+[33mcommit 5093c78835670a78c8dba2b6c50593443effa14d[m
+Author: Rishan <65364822+Rishanmohammed@users.noreply.github.com>
+Date:   Mon Aug 11 22:26:46 2025 +0530
+
+    Create CNAME
+
+[33mcommit ef10c62fe9452d0ef71d1d429ce2b11548949d39[m
+Author: Mohammed Rishan <rishanrish8181@gmail.com>
+Date:   Mon Aug 11 21:58:21 2025 +0530
+
+    initial commit-portfolio website
