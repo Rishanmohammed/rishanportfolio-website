@@ -3,338 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Rishan</title>
+    <title>Mohammed Rishan | Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    
 </head>
 <body>
-    <header>
-       
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" style="font-weight: 100;" href="index.html" id="logo-name">Mohammed Rishan</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#aboutme">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projects
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Trading Journal</a></li>
-            <li><a class="dropdown-item" href="#">E-Commerce</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-        
-    </header>
+    <!-- Navigation -->
+  <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">Mohammed Rishan</div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </nav>
 
-    <section class="hero">
-        <div class="container py-5">
-  <div class="row align-items-center">
-    <!-- Left Side Text -->
-    <div class="col-md-6">
-      <h1>Hello World</h1>
-      <h2>I am Mohammed Rishan</h2>
-      <h4>UI/UX Designer &amp; Full Stack Web Developer</h4>
-      <!-- Download CV Button -->
-      <a href="cv.pdf" class="btn btn-primary btn-lg" download>
-        Download CV
-      </a>
-    </div>
-    <!-- Right Side Image -->
-    <div class="col-md-6 text-center">
-      <img src="images/Homepage.jpg" class="img-fluid rounded" alt="Profile Picture">
-    </div>
-  </div>
-</div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>MERN Stack Developer</h1>
+                <p>Building the future with cutting-edge web technologies. Specializing in MongoDB, Express.js, React, and Node.js to create dynamic, scalable applications.</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </div>
     </section>
 
-    <!--ABOUT ME-->
-    <div class="container py-5">
-  <div class="row align-items-center">
-    
-    <!-- Left Side Image -->
-    <div class="col-md-6 text-center">
-      <img src="images/aboutme.jpg" class="img-fluid rounded" alt="About Me">
-    </div>
-
-    <!-- Right Side Text -->
-    <div class="col-md-6">
-      <h2 id="aboutme">About Me</h2>
-      <p>
-        I’m Mohammed Rishan — a passionate UI/UX Designer and Full Stack Web Developer dedicated to creating modern, user-friendly, and responsive websites. I enjoy crafting clean, intuitive designs and writing efficient, maintainable code to bring ideas to life.
-
-I’m a self-taught developer with 8 years of experience in remote technical support, now transitioning into a full-time development career. Skilled in React, Node.js, MongoDB, and Express.js, I focus on building clean, scalable web applications that deliver great user experiences.
-      </p>
-    </div>
-    
-
-  </div>
-</div>
-<!-- Interests Section -->
-<div class="container py-5">
-  <div class="row">
-    <div class="col text-center">
-      <h2 id="interests">Interests</h2>
-      <p class="mb-4">Here are a few things I’m passionate about:</p>
-    </div>
-  </div>
-
-  <div class="row text-center">
-    <div class="col-md-3 col-6 mb-4">
-      <i class="bi bi-laptop fs-1 text-primary"></i>
-      <h5>Coding</h5>
-    </div>
-    <div class="col-md-3 col-6 mb-4">
-      <i class="bi bi-palette fs-1 text-success"></i>
-      <h5>Design</h5>
-    </div>
-    <div class="col-md-3 col-6 mb-4">
-      <i class="bi bi-camera fs-1 text-danger"></i>
-      <h5>Reading</h5>
-    </div>
-    <div class="col-md-3 col-6 mb-4">
-      <i class="bi bi-airplane fs-1 text-warning"></i>
-      <h5>Research</h5>
-    </div>
-  </div>
-</div>
-
-   <!--SKILLS-->
-   <section id="skills" class="py-5 bg-light">
-    <div class="container">
-        <div class="text-center mb-4">
-            <h2 class="fw-bold">Tech Skills</h2>
-            <p class="text-muted">Technologies and tools I work with</p>
-        </div>
-
-        <div class="row">
-            <!-- Languages -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h5 class="fw-bold"><i class="bi bi-code-slash text-primary me-2"></i>Languages</h5>
-                        <p>HTML, CSS, JavaScript</p>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m Mohammed Rishan — a passionate UI/UX Designer and Full Stack Web Developer dedicated to creating modern, user-friendly, and responsive websites.</p>
+                    <p>My approach combines technical excellence with user-centered design to create digital experiences that are both functional and beautiful.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <h4>Frontend</h4>
+                            <p>React, Redux, HTML5, CSS3, JavaScript (ES6+)</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Backend</h4>
+                            <p>Node.js, Express.js, MongoDB, REST APIs, GraphQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Tools & DevOps</h4>
+                            <p>Git, Docker, AWS, Webpack, Jest, CI/CD</p>
+                        </div>
+                        <div class="skill-item">
+                            <h4>UI/UX Design</h4>
+                            <p>Figma, Adobe XD, Responsive Design, Prototyping</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Front-End -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h5 class="fw-bold"><i class="bi bi-window-sidebar text-success me-2"></i>Front-End</h5>
-                        <p>React, Bootstrap, Tailwind CSS</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Back-End -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h5 class="fw-bold"><i class="bi bi-server text-warning me-2"></i>Back-End</h5>
-                        <p>Node.js, Express.js</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Database -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h5 class="fw-bold"><i class="bi bi-database text-danger me-2"></i>Database</h5>
-                        <p>MongoDB, SQL Server</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tools -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h5 class="fw-bold"><i class="bi bi-tools text-secondary me-2"></i>Tools</h5>
-                        <p>Git, GitHub, VS Code, Postman, Netlify, Render,Wordpress,AWS</p>
-                    </div>
-                </div>
-            </div>
-             <!-- Tools -->
-            <div class="col-md-6 mb-4">
-                <div class="card shadow-sm border-0 h-100">
-                    <div class="card-body">
-                        <h5 class="fw-bold"><i class="bi bi-tools text-secondary me-2"></i>Design</h5>
-                        <p>Figma, Adobe Illustrator, Adobe Photoshop</p>
-                    </div>
-        </div>
-    </div>
-</section>
-
-<!--SERVICES-->
-<section id="services" class="py-5">
-    <div class="container">
-        <div class="text-center mb-4">
-            <h2 class="fw-bold">My Services</h2>
-            <p class="text-muted">What I can do for you</p>
-        </div>
-
-        <div class="row text-center">
-            <!-- Web Design -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm border-0 h-100 p-4">
-                    <i class="bi bi-palette-fill text-primary display-4 mb-3"></i>
-                    <h5 class="fw-bold">UI/UX Design</h5>
-                    <p class="text-muted">Creative and user-friendly designs for websites and apps with modern aesthetics.</p>
-                </div>
-            </div>
-
-            <!-- Front-End Development -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm border-0 h-100 p-4">
-                    <i class="bi bi-laptop-fill text-success display-4 mb-3"></i>
-                    <h5 class="fw-bold">Front-End Development</h5>
-                    <p class="text-muted">Responsive, fast, and interactive websites using HTML, CSS, JavaScript, React, and Bootstrap.</p>
-                </div>
-            </div>
-
-            <!-- Back-End Development -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm border-0 h-100 p-4">
-                    <i class="bi bi-server text-warning display-4 mb-3"></i>
-                    <h5 class="fw-bold">Back-End Development</h5>
-                    <p class="text-muted">Robust and scalable server-side applications with Node.js and Express</p>
-                </div>
-            </div>
-
-            <!-- Database Management -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm border-0 h-100 p-4">
-                    <i class="bi bi-database-fill text-danger display-4 mb-3"></i>
-                    <h5 class="fw-bold">Database Management</h5>
-                    <p class="text-muted">Efficient data storage, retrieval, and security using MongoDB and SQL Server</p>
-                </div>
-            </div>
-
-            <!-- API Development -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm border-0 h-100 p-4">
-                    <i class="bi bi-plug-fill text-secondary display-4 mb-3"></i>
-                    <h5 class="fw-bold">API Development</h5>
-                    <p class="text-muted">Custom REST APIs for seamless integration between front-end and back-end.</p>
-                </div>
-            </div>
-
-            <!-- Deployment & Hosting -->
-            <div class="col-md-4 mb-4">
-                <div class="card shadow-sm border-0 h-100 p-4">
-                    <i class="bi bi-cloud-upload-fill text-info display-4 mb-3"></i>
-                    <h5 class="fw-bold">Deployment & Hosting</h5>
-                    <p class="text-muted">Deploying and hosting applications on platforms like Netlify, Render, and Vercel.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- CONTACT SECTION -->
-<section id="contact" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-4">Contact Me</h2>
-    <p class="text-center mb-5">Have a question or want to work together? Fill out the form below.</p>
-    
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <form action="" method="">
-          
-          <!-- Name -->
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </div>
+    </section>
 
-          <!-- Email -->
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" name="_replyto" required>
-          </div>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-network"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>NeonSocial</h3>
+                        <p>A futuristic social media platform built with React, Node.js, and MongoDB. Features real-time messaging, content sharing, and advanced user analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-          <!-- Message -->
-          <div class="mb-3">
-            <label for="message" class="form-label">Your Message</label>
-            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-          </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>OnKart</h3>
+                        <p>An e-commerce platform with advanced features like AI-powered recommendations, secure payment processing, and inventory management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MERN Stack</span>
+                            <span class="tech-tag">Stripe API</span>
+                            <span class="tech-tag">JWT Auth</span>
+                            <span class="tech-tag">Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
-          <!-- Submit -->
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary px-4">Send Message</button>
-          </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>TaskFlow</h3>
+                        <p>A project management tool with kanban boards, time tracking, and team collaboration features. Built with a focus on performance and user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!--FOOTER SECTION-->
-<section>
-<footer class="bg-light text-dark py-4">
-  <div class="container">
-    <div class="row">
-      
-      <!-- Footer Left -->
-<section>
-<footer class="bg-light text-dark py-4">
-  <div class="container">
-    <div class="row">
-      
-      <!-- Footer Left -->
-      <div class="col-md-6">
-        <h5>Mohammed Rishan</h5>
-        <p class="mb-2">UI/UX Designer & Full Stack Web Developer</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Mohammed Rishan</div>
+                <div class="copyright">&copy; 2025 Mohammed Rishan. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
         
-        <!-- Social Icons -->
-        <div class="social-icons">
-          <a href="https://github.com/YourUsername" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/in/YourUsername" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-
-    </div>
-    <hr class="border-light">
-    <div class="text-center">
-      &copy; 2025 Mohammed Rishan. All Rights Reserved.
-    </div>
-  </div>
-</footer>
-</section>
-
-
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Form Submission
+        const contactForm = document.querySelector('.contact-form');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real application, you would send this data to a server
+            console.log('Form submitted:', { name, email, message });
+            
+            // Show success message
+            alert('Thank you for your message! I will get back to you soon.');
+            
+            // Reset form
+            contactForm.reset();
+        });
+        
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.padding = '10px 10%';
+                nav.style.backgroundColor = 'rgba(15, 15, 35, 0.95)';
+            } else {
+                nav.style.padding = '20px 10%';
+                nav.style.backgroundColor = 'rgba(15, 15, 35, 0.9)';
+            }
+        });
+        
+        // Add animation to elements when they come into view
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe elements for animation
+        document.querySelectorAll('.project-card, .skill-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
