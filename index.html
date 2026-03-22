@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohammed Rishan — Web Designer</title>
+<title>Rishan — Web Designer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -193,7 +193,7 @@ nav.scrolled{background:rgba(8,11,18,0.88);backdrop-filter:blur(20px);border-bot
 /* FOOTER */
 footer{background:var(--bg);border-top:1px solid var(--glass-border);padding:40px 48px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;}
 .flogo{font-family:'Poppins',sans-serif;font-weight:800;font-size:1.2rem;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;}
-.fcopy{font-size:.8rem;color:var(--muted);}
+.fcopy{font-size:.8rem;color:var(--muted);width: 100%;text-align: center;}
 .fsocials{display:flex;gap:12px;}
 
 /* REVEAL */
@@ -331,18 +331,34 @@ body.light .hamburger span{background:#1a1f2e;}
   <div class="hero-inner">
     <div class="hero-content">
       <div class="hero-badge"><div class="badge-dot"></div>Available for work</div>
-      <h1 class="hero-title">Hi, I'm <span class="hl">Mohammed<br>Rishan</span> — Web Designer</h1>
+      <h1 class="hero-title">Hi, I'm <span class="hl">Rishan</span> — Web Designer</h1>
       <p class="hero-sub">I design modern, high-converting websites that captivate audiences and drive real results.</p>
       <div class="hero-btns">
         <a href="#projects" class="btn btn-p">View Projects ↓</a>
         <a href="#contact" class="btn btn-o">Contact Me →</a>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="hero-avatar"><div class="avatar-inner">👨‍💻</div></div>
+    <!-- <div class="hero-visual">
+      <div class="hero-avatar"><div class="avatar-inner"></div></div>
       <div class="stat-card s1"><div class="stat-val">50+</div><div class="stat-label">Projects Done</div></div>
       <div class="stat-card s2"><div class="stat-val">3+</div><div class="stat-label">Years Experience</div></div>
+    </div> -->
+    <div class="hero-visual">
+  <div class="hero-avatar">
+    <div class="avatar-hex"></div>
+    <div class="avatar-hex2"></div>
+    <div class="avatar-inner">
+      <img src="images/Img1.jpg" alt="Rishan"
+           style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
     </div>
+    <div class="corner-deco cd-tl"></div>
+    <div class="corner-deco cd-tr"></div>
+    <div class="corner-deco cd-bl"></div>
+    <div class="corner-deco cd-br"></div>
+  </div>
+  <div class="stat-card s1"><div class="stat-val">50+</div><div class="stat-label">Projects Done</div></div>
+  <div class="stat-card s2"><div class="stat-val">3+</div><div class="stat-label">Years Experience</div></div>
+</div>
   </div>
   <div class="scroll-hint"><div class="scroll-line"></div>Scroll</div>
 </section>
@@ -352,9 +368,12 @@ body.light .hamburger span{background:#1a1f2e;}
     <div class="reveal"><div class="stag">Who I Am</div><h2 class="stitle">Crafting Digital <span>Experiences</span></h2></div>
     <div class="about-grid">
       <div class="aimg-wrap reveal">
-        <div class="aimg">🎨</div>
+        <div class="aimg">
+    <img src="images/aboutme.jpg" alt="Rishan"
+         style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+  </div>
         <div class="adecor"></div>
-        <div class="exp-badge"><span class="num">4+</span><span class="lbl">Years of<br>Design</span></div>
+        <div class="exp-badge"><span class="num">3+</span><span class="lbl">Years of<br>Design</span></div>
       </div>
       <div class="acontent">
         <div class="reveal"><div class="stag">About Me</div><h3 class="stitle" style="font-size:clamp(1.5rem,3vw,2.2rem);">Passionate about pixels,<br>obsessed with <span>detail</span></h3></div>
@@ -395,14 +414,102 @@ body.light .hamburger span{background:#1a1f2e;}
         <button class="ftab" data-f="landing">Landing Pages</button>
       </div>
     </div>
-    <div class="pgrid">
+    <!-- <div class="pgrid">
       <div class="pcard reveal" data-cat="web"><div class="pimg"><div class="pimg-bg" style="background:linear-gradient(135deg,#0d1120,#1a2035);"></div><div style="position:relative;z-index:1;">🏢</div></div><div class="poverlay"><a href="#" class="obtn">View Case Study →</a></div><div class="pinfo"><div class="ptags"><span class="ptag">Web Design</span><span class="ptag">Figma</span></div><h3>Nexus Corporate Site</h3><p>A modern corporate website redesign with emphasis on brand identity and conversion optimization.</p></div></div>
       <div class="pcard reveal" data-cat="ui"><div class="pimg"><div class="pimg-bg" style="background:linear-gradient(135deg,#0a0f1e,#162040);"></div><div style="position:relative;z-index:1;">📱</div></div><div class="poverlay"><a href="#" class="obtn">View Case Study →</a></div><div class="pinfo"><div class="ptags"><span class="ptag">UI/UX</span><span class="ptag">Mobile</span></div><h3>Fintech App Dashboard</h3><p>Complete UI/UX overhaul for a fintech mobile app, focused on clarity and trust signals.</p></div></div>
       <div class="pcard reveal" data-cat="landing"><div class="pimg"><div class="pimg-bg" style="background:linear-gradient(135deg,#100a1f,#1e1040);"></div><div style="position:relative;z-index:1;">🎯</div></div><div class="poverlay"><a href="#" class="obtn">View Case Study →</a></div><div class="pinfo"><div class="ptags"><span class="ptag">Landing Page</span><span class="ptag">Conversion</span></div><h3>SaaS Growth Page</h3><p>High-converting landing page that increased sign-ups by 240% through strategic layout and copy hierarchy.</p></div></div>
       <div class="pcard reveal" data-cat="web"><div class="pimg"><div class="pimg-bg" style="background:linear-gradient(135deg,#0a1f15,#102a1e);"></div><div style="position:relative;z-index:1;">🛍️</div></div><div class="poverlay"><a href="#" class="obtn">View Case Study →</a></div><div class="pinfo"><div class="ptags"><span class="ptag">E-Commerce</span><span class="ptag">WordPress</span></div><h3>Luxe Boutique Store</h3><p>Premium e-commerce experience for a luxury fashion brand — editorial aesthetic meets seamless UX.</p></div></div>
       <div class="pcard reveal" data-cat="ui"><div class="pimg"><div class="pimg-bg" style="background:linear-gradient(135deg,#1f0a0a,#2a1010);"></div><div style="position:relative;z-index:1;">📊</div></div><div class="poverlay"><a href="#" class="obtn">View Case Study →</a></div><div class="pinfo"><div class="ptags"><span class="ptag">Dashboard</span><span class="ptag">Data Viz</span></div><h3>Analytics Platform UI</h3><p>Complex data visualization interface designed for clarity, making insights immediately actionable.</p></div></div>
       <div class="pcard reveal" data-cat="landing"><div class="pimg"><div class="pimg-bg" style="background:linear-gradient(135deg,#0f1a20,#1a2d38);"></div><div style="position:relative;z-index:1;">🎓</div></div><div class="poverlay"><a href="#" class="obtn">View Case Study →</a></div><div class="pinfo"><div class="ptags"><span class="ptag">EdTech</span><span class="ptag">Landing Page</span></div><h3>Course Platform Launch</h3><p>Online education platform launch page with animated sections, testimonials, and strong CTAs.</p></div></div>
+    </div> -->
+<div class="pgrid">
+
+  <!-- Project 1 -->
+  <div class="pcard reveal" data-cat="web">
+    <div class="pimg">
+      <img src="images/proj_b4books.png" alt="B4 Book Shop"
+           style="width:100%;height:100%;object-fit:cover;transition:transform .6s;">
     </div>
+    <div class="poverlay"><a href="#" class="obtn">View →</a></div>
+    <div class="pinfo">
+      <div class="ptags"><span class="ptag">Web Design</span><span class="ptag">Figma</span></div>
+      <h3>B4 BOOKS</h3>
+      <p>A modern  website redesign with emphasis on brand identity and conversion optimization.</p>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="pcard reveal" data-cat="ui">
+    <div class="pimg">
+      <img src="project2.jpg" alt="Trading Journal App"
+           style="width:100%;height:100%;object-fit:cover;transition:transform .6s;">
+    </div>
+    <div class="poverlay"><a href="#" class="obtn">View →</a></div>
+    <div class="pinfo">
+      <div class="ptags"><span class="ptag">UI/UX</span><span class="ptag">Mobile</span></div>
+      <h3>Fintech App Dashboard</h3>
+      <p>Complete UI/UX overhaul for a fintech mobile app, focused on clarity and trust signals.</p>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="pcard reveal" data-cat="landing">
+    <div class="pimg">
+      <img src="project3.jpg" alt="Accounts Book"
+           style="width:100%;height:100%;object-fit:cover;transition:transform .6s;">
+    </div>
+    <div class="poverlay"><a href="#" class="obtn">View →</a></div>
+    <div class="pinfo">
+      <div class="ptags"><span class="ptag">Landing Page</span><span class="ptag">Conversion</span></div>
+      <h3>Accounts Book</h3>
+      <p>High-converting landing page that increased sign-ups by 240% through strategic layout and copy hierarchy.</p>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="pcard reveal" data-cat="web">
+    <div class="pimg">
+      <img src="project4.jpg" alt="Zara Boutique Store"
+           style="width:100%;height:100%;object-fit:cover;transition:transform .6s;">
+    </div>
+    <div class="poverlay"><a href="#" class="obtn">View →</a></div>
+    <div class="pinfo">
+      <div class="ptags"><span class="ptag">E-Commerce</span><span class="ptag">WordPress</span></div>
+      <h3>Zara Boutique Store</h3>
+      <p>Premium e-commerce experience for a luxury fashion brand — editorial aesthetic meets seamless UX.</p>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="pcard reveal" data-cat="ui">
+    <div class="pimg">
+      <img src="project5.jpg" alt="Earthify Gifting"
+           style="width:100%;height:100%;object-fit:cover;transition:transform .6s;">
+    </div>
+    <div class="poverlay"><a href="#" class="obtn">View →</a></div>
+    <div class="pinfo">
+      <div class="ptags"><span class="ptag">Dashboard</span><span class="ptag">Data Viz</span></div>
+      <h3>Earthify Gifting</h3>
+      <p>Complex data visualization interface designed for clarity, making insights immediately actionable.</p>
+    </div>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="pcard reveal" data-cat="landing">
+    <div class="pimg">
+      <img src="images/proj_tfc.jpg" alt="Course Platform Launch"
+           style="width:100%;height:100%;object-fit:cover;transition:transform .6s;">
+    </div>
+    <div class="poverlay"><a href="#" class="obtn">View →</a></div>
+    <div class="pinfo">
+      <div class="ptags"><span class="ptag">TFC</span><span class="ptag">Landing Page</span></div>
+      <h3>TFC Fried Chicken</h3>
+      <p>A modern and responsive website design for TFC Fried Chicken, focused on showcasing menu items, offers, and a seamless user experience with bold visuals and intuitive navigation.</p>
+    </div>
+  </div>
+
+</div>
+
   </div>
 </section>
 
@@ -454,9 +561,44 @@ body.light .hamburger span{background:#1a1f2e;}
         </div>
         <div>
           <div style="color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px;">Follow Me</div>
-          <div class="socials">
-            <a href="#" class="sl">📷</a><a href="#" class="sl">💼</a><a href="#" class="sl">🐦</a><a href="#" class="sl">🏀</a><a href="#" class="sl">✦</a>
-          </div>
+       <div class="socials">
+
+  <a href="#" class="sl" target="_blank" title="Instagram">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="2" width="20" height="20" rx="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+  </a>
+
+  <a href="#" class="sl" target="_blank" title="LinkedIn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+      <rect x="2" y="9" width="4" height="12"/>
+      <circle cx="4" cy="4" r="2"/>
+    </svg>
+  </a>
+
+  <a href="#" class="sl" target="_blank" title="Twitter / X">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    </svg>
+  </a>
+
+  <a href="#" class="sl" target="_blank" title="Dribbble">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/>
+    </svg>
+  </a>
+
+  <a href="https://wa.me/971XXXXXXXXX" class="sl" target="_blank" title="WhatsApp">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+</div>
         </div>
       </div>
       <div class="cform reveal">
@@ -474,9 +616,9 @@ body.light .hamburger span{background:#1a1f2e;}
 
 <footer>
   <a href="#home" class="flogo">rishan portfolio</a>
-  <div class="fcopy">© 2025 Mohammed Rishan. All rights reserved.</div>
-  <div class="fsocials"><a href="#" class="sl">📷</a><a href="#" class="sl">💼</a><a href="#" class="sl">🏀</a></div>
+  <div class="fcopy">© 2026 Mohammed Rishan. All rights reserved.</div>   
 </footer>
+
 
 <button class="mtoggle" id="mt">🌙</button>
 
